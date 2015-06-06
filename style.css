@@ -1,0 +1,76 @@
+html {
+    color: #444;
+    font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    background: #fefefe
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: normal
+}
+
+a {
+    color: inherit
+}
+
+a:hover {
+    color: #999
+}
+
+ul {
+    display: table;
+    padding: 0 0 1em 1.5em;
+    font-family: monospace
+}
+
+li {
+    list-style: none;
+    float: left;
+    width: 330px;
+    margin-bottom: .5em
+}
+
+li .hover {
+    margin-left: -4px
+}
+
+li img {
+    vertical-align: middle;
+    height: 22px;
+    width: 22px
+}
+
+#content {
+    margin: 0 auto;
+    padding: 0 30px
+}
+
+#header {
+    overflow: hidden;
+    zoom: 1;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding: 10px 0 7px 0
+}
+
+@media screen and (max-width: 640px) {
+    .search {
+        position: relative;
+        top: 0
+    }
+    #description {
+        width: 100%
+    }
+}
+
+.emoji {
+    float: left;
+    margin-right: .5em;
+    width: 22px;
+    height: 22px
+}
